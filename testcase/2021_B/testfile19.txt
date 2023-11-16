@@ -64,7 +64,7 @@ void test_if(int a, int b){
 }
 
 //while
-void test_for(;int i, int len;){
+void test_for(int i, int len){
 	int count = i;
 	for(;count <= len;){
 		count = count + 1;
@@ -115,7 +115,7 @@ int main(){
 	//if
 	test_if(2, 2);
 	//while
-	test_for(;0, 5;);
+	test_for(0, 5);
 	//break continue
 	test_break_continue();
 	//printf

@@ -20,5 +20,8 @@ ir:
 mips:
 	cd ./auto && $(MAKE) mips
 
+casetest:
+	cd ./auto && $(MAKE) casetest
+
 test:
 	cd ./auto && $(MAKE) test

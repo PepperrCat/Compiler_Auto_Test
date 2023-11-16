@@ -97,7 +97,7 @@ void func_if_D2array(int a[][3], int factor) {
            a[1][1], a[1][2]);
 }
 
-int func_for(;int n, int m;) {
+int func_for(int n, int m) {
     int i = m + n, j = 0, k = 0;
     for(;i;) {
         k = k + 1;
@@ -173,7 +173,7 @@ int main() {
     factor = getint();
     int x = func_if_D1array(AB, factor);
     func_if_D2array(array_E, factor);
-    printf("Loop 7 times, once continue, once break. Symbol j = %d. func_for(;x, y;)is done!\n",
-           func_for(;var5, var6;));
+    printf("Loop 7 times, once continue, once break. Symbol j = %d. func_for(x, y)is done!\n",
+           func_for(var5, var6));
     return 0;
 }

@@ -38,7 +38,7 @@ void merge_sort(int l, int r)
         l = l + 1;
     }
 }
-void putarray(int n,int a[]){
+void putarray0(int n,int a[]){
     printf("%d:",n);
     int i = 0;
     for(;i < n;) {
@@ -48,7 +48,7 @@ void putarray(int n,int a[]){
 
     printf("\n");
 }
-int getarray(int a[]){
+int getarray0(int a[]){
     int n;
     n = getint();
     int i = 0;
@@ -61,9 +61,9 @@ int getarray(int a[]){
 
 int main()
 {
-    int n = getarray(buf[0]);
+    int n = getarray0(buf[0]);
     merge_sort(0, n);
-    putarray(n, buf[0]);
+    putarray0(n, buf[0]);
 	printf("%d", 0);
     return 0;
 }

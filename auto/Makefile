@@ -1,4 +1,4 @@
-.PHONY: build run clean ir
+.PHONY: build run clean ir test
 
 build:
 	./autojar.sh
@@ -15,5 +15,9 @@ ir:
 mips:
 	./mips.sh
 
+casetest:
+	python3 ./testcase.py
+
 test:
-	python3 ./test.py
+	sh ./test.sh
+

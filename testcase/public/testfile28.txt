@@ -2,7 +2,7 @@
 /*
  * Max flow EK with DFS.
  */
-const int INF = 0x1879048192;
+const int INF = 1051095535;
 
 int size[10];
 int to[10][10];
@@ -73,6 +73,7 @@ int max_flow(int s, int t)
             return flow;
         flow = flow + f;
     }
+    return 0;
 }
 
 int main()

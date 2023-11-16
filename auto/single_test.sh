@@ -1,10 +1,11 @@
-java -jar compiler.jar 2>jre.txt
+
 
 if [ $1 = "0" ];then
     sh irc.sh
     sed -i 's/\r//g' output.txt
     sed -i 's/\r//g' irout.txt
     echo"" >> output.txt
+    echo"" >> irout.txt
     diff irout.txt output.txt -B > diff.txt
 else
     sh mips.sh > mipsoutput.txt
@@ -12,6 +13,7 @@ else
     sed -i 's/\r//g' output.txt
     sed -i 's/\r//g' mipsoutput.txt
     echo"" >> output.txt
+    echo"" >> mipsoutput.txt
     diff mipsoutput.txt output.txt -B > diff.txt
 fi
 

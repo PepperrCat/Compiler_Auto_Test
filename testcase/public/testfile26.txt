@@ -99,6 +99,7 @@ int getMid(int arr[]) {
         mid = n / 2;
         return arr[mid];
     }
+    return 0;
 }
 
 int getMost(int arr[]) {

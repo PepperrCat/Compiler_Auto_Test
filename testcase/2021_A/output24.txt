@@ -14,4 +14,4 @@ Array array_E:
 Testing func_if_D2array(a[][3], b) ......
 0 1 3
 1 2 0
-Loop 7 times, once continue, once break. Symbol j = 5. func_while(x, y)is done!
+Loop 7 times, once continue, once break. Symbol j = 5. func_for(x, y)is done!

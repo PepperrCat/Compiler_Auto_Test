@@ -1,4 +1,5 @@
 //93_nested_calls.sy
+
 int func1(int x, int y, int z) {
   if (z == 0) {
     return x * y;
@@ -6,6 +7,7 @@ int func1(int x, int y, int z) {
   else {
     return func1(x, y - z, 0);
   }
+  return 0;
 }
 
 int func2(int x, int y) {
@@ -15,6 +17,7 @@ int func2(int x, int y) {
   else {
     return x;
   }
+  return 0;
 }
 
 int func3(int x, int y) {
@@ -24,6 +27,7 @@ int func3(int x, int y) {
   else {
     return func3(x + y, 0);
   }
+  return 0;
 }
 
 int func4(int x, int y, int z) {
@@ -33,6 +37,7 @@ int func4(int x, int y, int z) {
   else {
     return z;
   }
+  return 0;
 }
 
 int func5(int x) {
@@ -43,21 +48,17 @@ int func6(int x, int y) {
   if (x && y) {
     return 1;
   }
-  else {
-    return 0;
-  }
+  return 0;
 }
 
 int func7(int x) {
   if (!x) {
     return 1;
   }
-  else {
-    return 0;
-  }
+  return 0;
 }
 
-int main()
+int main(){
   int i1, i2, i3, i4;
   i1 = getint(); i2 = getint(); i3 = getint(); i4 = getint();
   int arr[10];

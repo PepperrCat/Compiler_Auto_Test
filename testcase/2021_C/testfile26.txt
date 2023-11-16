@@ -53,7 +53,7 @@ int main() {
         vr1 = vr1 + 1;
         vr5 = vr5 / 2;
     }
-    for(;(1;)){break;}
+    for(;(1);){break;}
     if (1) vr3 = 9;
     printf("%d\n", vr5);
     printf("%d %d\n", gcd(72, 18), gcd(vr1, cn4));

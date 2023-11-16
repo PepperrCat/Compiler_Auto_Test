@@ -6,8 +6,7 @@ int MAX(int a, int b)
         return a;
     else if (a > b)
         return a;
-    else
-        return b;
+    return b;
 }
 
 int max_sum_nonadjacent(int arr[], int n)

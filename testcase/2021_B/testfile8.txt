@@ -46,7 +46,7 @@ int main() {
 	glo_9 = getint();
 	c = -+-test_5() + test_1(c, d, _a_4_b_d) + test_1(_a_4_b_d[0][0], _a_4_b_d[0], _a_4_b_d) - test_1(_a_4_b_d[0][0], _a_4_b_d[0], _a_4_b_d);
 	z = test_2(c);
-	for(;glo_9 >= 0 || 0 && 1 || !0 && glo_1 < 0 && 0 <= glo_8  && glo_7 > 0 && glo_6 != glo_5 && (glo_4 % 2 / 2 + test_1(c, d, _a_4_b_d;) + test_1(_a_4_b_d[0][0], _a_4_b_d[0], _a_4_b_d) - test_1(_a_4_b_d[0][0], _a_4_b_d[0], _a_4_b_d) * 20) &&  glo_6 == glo_6 ) {
+	for(;glo_9 >= 0 || 0 && 1 || !0 && glo_1 < 0 && 0 <= glo_8  && glo_7 > 0 && glo_6 != glo_5 && (glo_4 % 2 / 2 + test_1(c, d, _a_4_b_d) + test_1(_a_4_b_d[0][0], _a_4_b_d[0], _a_4_b_d) - test_1(_a_4_b_d[0][0], _a_4_b_d[0], _a_4_b_d) * 20) &&  glo_6 == glo_6 ;) {
 		if(glo_2>1) {
 			glo_2 = glo_2 - 1;
 			glo_9 = glo_9 - 1;

@@ -12,10 +12,9 @@ void init(int n) {
 int findfa(int a) {
   if (array[a] == a)
     return a;
-  else {
-    array[a] = findfa(array[a]);
-    return array[a];
-  }
+  array[a] = findfa(array[a]);
+  return array[a];
+  
 }
 void mmerge(int a, int b) {
   int m = findfa(a);

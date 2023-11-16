@@ -3,6 +3,9 @@
 # shopt -u extglob
 
 rm -rf *.txt|mips.asm|target*
-rm -rf ./out/
+rm -rf ./llvmout/
+rm -rf ./mipsout/
 rm -rf ./result/
+rm -rf ./test/
+rm -rf compiler.jar
 echo "Everything is clean..."
