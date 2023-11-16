@@ -1,2 +1,3 @@
 cp ./mips.txt ./mips.asm
 java -jar mars.jar mips.asm < input.txt
+rm -rf mips.asm

@@ -19,3 +19,6 @@ ir:
 
 mips:
 	cd ./auto && $(MAKE) mips
+
+test:
+	cd ./auto && $(MAKE) test

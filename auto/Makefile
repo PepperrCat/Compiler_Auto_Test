@@ -14,3 +14,6 @@ ir:
 
 mips:
 	./mips.sh
+
+test:
+	python3 ./test.py
