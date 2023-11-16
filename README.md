@@ -1,6 +1,6 @@
 # ReadMe
 
-将源码传至src内运行以下命令即可：（linux上运行）
+将源码src文件夹（compiler.java入口）加入根目录后，运行以下命令即可：（linux上运行）
 
 ```makefile
 make build # 编译并在 auto 中打包成 jar
