@@ -10,4 +10,4 @@ cd ..
 
 rm -rf ./src ./classes MANIFEST.MF
 
-echo "pancy.jar has been made..."
+echo "compiler.jar has been made..."
