@@ -21,3 +21,10 @@ openjdk 17.0.8.1 2023-08-24
 OpenJDK Runtime Environment (build 17.0.8.1+1-Ubuntu-0ubuntu122.04)
 OpenJDK 64-Bit Server VM (build 17.0.8.1+1-Ubuntu-0ubuntu122.04, mixed mode, sharing)
 ```
+
+如果报错中出现**`/r`**有关错误，在/auto目录下执行以下命令，将.sh文件中的`\r`删去即可（windows和linux换行是这样的，很变态）
+
+```shell
+sudo sed -i 's/\r//' *.sh
+```
+
