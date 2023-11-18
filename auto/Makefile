@@ -18,6 +18,9 @@ mips:
 casetest:
 	python3 ./testcase.py
 
-test:
-	sh ./test.sh
+mipsself:
+	sh ./mips_self.sh
+
+llvmself:
+	sh ./llvm_self.sh
 

@@ -28,12 +28,14 @@ for testdir in testdirs:
             os.system(cmd)
             test_name = testdir + "_" + testfile[0:-4]
             print("Now walking " + test_name)
-            os.system("java -jar compiler.jar 2>jre.txt >log.txt")
-            cmd = "cp " + os.path.join(test_dir_path, testdir) + "/output" + testfile[8:-4] + ".txt" + " output.txt"   
-            os.system(cmd)
-            for execute_script in execute_scripts:
-                os.system("./" + execute_script + " " + test_name)
-           
+            if (os.path.exists("compiler.jar")):
+                os.system("java -jar compiler.jar 2>RE.txt >log.txt")
+                cmd = "cp " + os.path.join(test_dir_path, testdir) + "/output" + testfile[8:-4] + ".txt" + " output.txt"   
+                os.system(cmd)
+                for execute_script in execute_scripts:
+                    os.system("./" + execute_script + " " + test_name)
+            else:
+                print("build first please!")
         # if (testfile[0] == 'o'):  
         #     cmd = "cp " + testpath + " output.txt"   
         #     os.system(cmd)

@@ -25,3 +25,9 @@ casetest:
 
 test:
 	cd ./auto && $(MAKE) test
+
+mipsself:
+	cd ./auto && $(MAKE) mipsself
+
+llvmself:
+	cd ./auto && $(MAKE) llvmself

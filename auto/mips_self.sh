@@ -1,7 +1,8 @@
 cp ../testfile.txt testfile.txt
 cp ../input.txt input.txt
-java -jar compiler.jar
-sh mips.sh > mipsoutput.txt
+java -jar compiler.jar 2>RE.txt >log.txt
+
+sh mips.sh
 sed -i '1,2d' mipsoutput.txt
 if [ ! -d "./test/" ];then
     mkdir test

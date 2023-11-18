@@ -24,7 +24,7 @@ test_type = input("print auto type(0 for llvm, else for mips):")
 print(test_type)
 if int(test_type) == 0:
     print("llvm:")
-    os.system("java -jar compiler.jar 2>jre.txt >log.txt")
+    os.system("java -jar compiler.jar 2>RE.txt >log.txt")
     cmd = "cp " + outpath + " output.txt"  
     os.system(cmd)
     os.system("./single_test.sh 0")

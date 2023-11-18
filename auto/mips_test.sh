@@ -4,7 +4,7 @@ if [ ! -d "./mipsout/" ];then
     mkdir mipsout
 fi
 
-sh mips.sh > mipsoutput.txt
+sh mips.sh 
 sed -i '1,2d' mipsoutput.txt
 sed -i 's/\r//g' output.txt
 sed -i 's/\r//g' mipsoutput.txt
